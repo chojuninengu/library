@@ -52,7 +52,7 @@
                 <version>2.2</version>
                 <configuration>
                     <port>8080</port>
-                    <path>/library_api</path>
+                    <path>/api</path>
                 </configuration>
             </plugin>
         </plugins>
