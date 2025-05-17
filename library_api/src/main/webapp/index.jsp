@@ -14,6 +14,7 @@
     <input id="author" placeholder="Author">
     <button onclick="addBook()">Add Book</button>
     <div id="book-list"></div>
-    <script src="app.js"></script>
+ 
+    <script type="text/javascript" src="${pageContext.request.contextPath}/js/app.js"></script>
 </body>
 </html>
