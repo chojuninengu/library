@@ -1,6 +1,6 @@
 // Fetch and display books
 async function loadBooks() {
-    const response = await fetch('<http://localhost:8080/api/books>');
+    const response = await fetch('http://localhost:8080/api/books');
     const books = await response.json();
     const bookList = document.getElementById('book-list');
     bookList.innerHTML = books.map(book => `
@@ -15,7 +15,7 @@ async function loadBooks() {
 async function addBook() {
     const title = document.getElementById('title').value;
     const author = document.getElementById('author').value;
-    await fetch('/books', {
+    await fetch('http://localhost:8080/api/books', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: `title=${title}&author=${author}`
