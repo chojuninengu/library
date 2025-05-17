@@ -15,6 +15,6 @@
     <button onclick="addBook()">Add Book</button>
     <div id="book-list"></div>
  
-    <script type="text/javascript" src="/js/app.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
 </body>
 </html>
