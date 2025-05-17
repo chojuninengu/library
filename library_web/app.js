@@ -25,7 +25,7 @@ async function addBook() {
 
 // Delete a book
 async function deleteBook(id) {
-    await fetch(`/books?id=${id}`, { method: 'DELETE' });
+    await fetch(`http://localhost:8080/api/books?id=${id}`, { method: 'DELETE' });
     loadBooks();
 }
 
