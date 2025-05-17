@@ -1,3 +1,5 @@
+const API_BASE_URL = 'http://localhost:8080/api';
+
 // Fetch and display books
 async function loadBooks() {
     const response = await fetch('<http://localhost:8080/api/books>');
