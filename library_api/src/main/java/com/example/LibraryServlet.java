@@ -12,7 +12,7 @@ import com.example.db.LibraryDB;
 import com.example.entities.Book;
 import com.google.gson.Gson;
 
-@WebServlet("/books")
+@WebServlet("api/books")
 public class LibraryServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse res) throws IOException {
